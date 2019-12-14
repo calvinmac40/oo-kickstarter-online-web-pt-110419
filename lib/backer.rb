@@ -7,4 +7,8 @@ class Backer
     @name = name
     @backed_projects = []
   end
+  
+  def back_project(majic) 
+    @backed_projects << majic
+  end
 end
