@@ -9,7 +9,7 @@ class Backer
   end
   
   def back_project(majic) 
-    #@backed_projects << majic
+    @backed_projects << majic
   end
   
   def backed_project
